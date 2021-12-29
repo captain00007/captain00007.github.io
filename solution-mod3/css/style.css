@@ -1,0 +1,40 @@
+nav {
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+}
+.navbar-brand {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+#title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+}
+.row {
+  width: 96%;
+  margin: auto;
+}
+.row > div {
+  background-color: darkgray;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu {
+  margin-bottom: 60px;
+}
+.menu > h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .row {
+    width: 80%;
+    margin: auto;
+  }
+}
